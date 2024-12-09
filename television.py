@@ -108,7 +108,7 @@ class Television:
     def set_volume(self, volume) -> None:
         """
         Method to set the current volume, used for volume slider in GUI.
-        :volume: Integer for the volume.
+        :param volume: Integer for the volume.
         """
         self.__volume = volume
 

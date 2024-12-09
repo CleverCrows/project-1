@@ -12,6 +12,7 @@ class Gui:
         Consists of a display showing the current status of the television,
         buttons for power and mute, a label for channel and volume and associated
         increase and decrease buttons respectively. Finally, a volume bar and submit button for the volume.
+        :param window: For window creation.
         """
         self.tvl = Television()
 
