@@ -48,6 +48,7 @@ class Television:
             else:
                 self.__channel = Television.MIN_CHANNEL
 
+
     def channel_down(self) -> None:
         """
         Method to decrease TV channel.
@@ -103,6 +104,13 @@ class Television:
         :return: Volume.
         """
         return self.__volume
+
+    def set_volume(self, volume) -> None:
+        """
+        Method to set the current volume, used for volume slider in GUI.
+        :volume: Integer for the volume.
+        """
+        self.__volume = volume
 
     def __str__(self) -> str:
         """
